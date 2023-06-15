@@ -1,0 +1,10 @@
+.transaction-history{
+    width: 50%;
+    background-color: #B0B9BF;
+}
+
+.transaction-history td, tr{
+
+    text-align: center;
+    border: 1px solid black;
+}
