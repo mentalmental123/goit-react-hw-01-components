@@ -1,7 +1,7 @@
 import propTypes from 'prop-types';
 
 function TransactionHistory({ transactions }) {
-   console.log(transactions);
+   
     return (
         <table className="transaction-history">
   <thead>
@@ -25,7 +25,9 @@ function TransactionHistory({ transactions }) {
     )
 };
   
-
+TransactionHistory.propTypes = {
+    transactions: propTypes.array.isRequired,
+}
 
 
 export { TransactionHistory };

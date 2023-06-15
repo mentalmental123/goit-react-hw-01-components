@@ -23,7 +23,7 @@ function FriendListItem({friends}) {
 }
 
 FriendListItem.propTypes = {
-    friends: propTypes.array.isRequired
+    friends: propTypes.array.isRequired,
 }
 
 export { FriendListItem };
