@@ -1,0 +1,27 @@
+.profile {
+  margin: 0 auto;
+  background-color: rgb(70, 162, 58);
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.description img {
+  width: 150px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.stats {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  border: 2px solid yellow;
+}
