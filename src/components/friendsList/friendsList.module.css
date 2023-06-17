@@ -1,26 +1,26 @@
-.friend-status{
-   display: block;
-   width: 10px;
-   height: 10px;
-   border-radius: 50%;
-   background-color: black;
+.friend-status {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  /* background-color: black; */
 }
 
-.online-color{
-    background-color: green;
+.online-color {
+  background-color: green;
 }
 
-.offline-color{
-    background-color: red;
+.offline-color {
+  background-color: red;
 }
 
-.friend-item{
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px;
-    background-color: #B0B9BF;
-    border-radius: 10px;
-    width: 200px;
+.friend-item {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  background-color: #b0b9bf;
+  border-radius: 10px;
+  width: 200px;
 }

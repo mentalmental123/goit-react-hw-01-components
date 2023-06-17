@@ -7,9 +7,13 @@ function FriendListItem({ friends }) {
       {friends.map(({ avatar, name, isOnline, id }) => (
         <li key={id} className={css["friend-item"]}>
           {isOnline ? (
-            <span className={css[("friend-status", "online-color")]}></span>
+            <span
+              className={`${css["friend-status"]} ${css["online-color"]}`}
+            ></span>
           ) : (
-            <span className={css[("friend-status", "offline-color")]}></span>
+            <span
+              className={`${css["friend-status"]} ${css["offline-color"]}`}
+            ></span>
           )}
 
           <img
